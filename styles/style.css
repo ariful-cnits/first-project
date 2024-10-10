@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 255px;
+    width: 1920px;
+    height: 100px;
+    background: #FFF;
+}
+
+nav img {
+    width: 91px;
+    height: 74px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+nav .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .nav-links li {
+    list-style: none;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    margin-left: 50px;
+    /* color: #000; */
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link1 a {
+    color: #07A446;
+}
+
+.link a {
+    color: #000;
+    cursor: pointer;
+}
+
+nav .nav-links a:hover {
+    color: #07A446;
+}
+
+.nav-links li button {
+    padding: 6px 30px;
+    color: #FEFEFE;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    background: #07A446;
+}
+
+.nav-links li button:hover {
+    background: #4fc97f;
+    color: #ffffff;
+    box-shadow: 1px 0.5px 1px 0.4px #000;
+}
+
+
+/* Home container style start here  */
+.home-container {
+    width: 1920px;
+    height: 750px;
+    background: #A3DDBB;
+    display: flex;
+    align-items: center;
+}
+
+.home-content {
+    margin-left: 255px;
+}
+
+.home-content .home-sub-text {
+    color: #07A446;
+    /* text-align: center; */
+    font-family: Poppins;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.home-content .home-title {
+    color: #000;
+    /* text-align: center; */
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.home-content .home-para {
+    color: #000;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    width: 691px;
+    margin: 30px 0 50px 0;
+    /* 34px */
+}
+
+.home-content .home-btn {
+    width: 189px;
+    height: 60px;
+    color: #FEFEFE;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    background: #07A446;
+}
+
+.home-container .home-btn:hover {
+    background: #4fc97f;
+    color: #ffffff;
+    box-shadow: 1px 0.5px 1px 0.4px #000;
+}
+
+.home-container .home-images {
+    margin-bottom: -120px;
+}
+
+/* About me style start here  */
+
+.about-me {
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    margin: 120px 40px 120px 255px;
+}
+
+.about-me-content {
+    margin-left: 233px;
+}
+
+.about-me-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-me-para {
+    width: 809px;
+    color: #000;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    padding: 50px 0 30px 0;
+}
+
+.about-me-btn {
+    width: 189px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #07A446;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* services style start here  */
+
+.services {
+    width: 1920px;
+}
+
+.services-title {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin: 50px 255px 120px 255px;
+}
+
+
+
+
+.card {
+    width: 450px;
+    height: 264px;
+    border-radius: 20px;
+    background: #A3DDBB;
+    padding: 48px;
+}
+
+.card-title {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.card-para {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* contact style work here  */
+
+.contact {
+    width: 1920px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 255px 120px 255px;
+}
+
+.social-media-icons {
+    margin-right: 220px;
+}
+
+.icon-title {
+    display: flex;
+    gap: 25px;
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+.creater-title {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 35.687px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.creater-para {
+    color: #000;
+    font-family: Poppins;
+    font-size: 17.509px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    /* gap: 9px; */
+    margin: 85px 131px 75px 132px;
+}
+
+.creater input {
+    width: 310px;
+    height: 47.819px;
+    color: #969797;
+    font-family: Poppins;
+    font-size: 24.05px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 6px 15px;
+}
+
+.creater button {
+    width: 58.716px;
+    height: 47.819px;
+    font-size: 20px;
+}
+
+/* footer style start here  */
+.footer {
+    width: 1920px;
+    height: 104px;
+    background: #A3DDBB;
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    text-align: center;
+}
+
+.footer h3 {
+    margin: 0 auto;
+}
+
+.footer-last {
+    margin-left: 22px;
+    border-left: 3px solid black;
+    padding-left: 23px;
+}
+
